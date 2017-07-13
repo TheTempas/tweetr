@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  background-color: #fff;
+}
+
+main.container {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0 auto;
+  width: 450px;
+  background-color: #00D9FE;
+  border-radius: 8px;
+}
+
+article {
+  background-color: white;
+  border: 4px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #941EEC;
+  padding: 3px 0;
+}
+
+.new-tweet {
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.new-tweet h2 {
+  border-bottom: 1px solid black;
+}
+
+.new-tweet textarea {
+  border-radius: 5px;
+  width: 365px;
+  height: 60px;
+}
+
+.new-tweet .counter {
+  float: right;
+  padding-right: 10px;
+  font-style: italic;
+}
+.over-limit {
+  color: red;
+}
+
+/*///////*/
+.tweet-feed {
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.tweet-feed-header {
+  background-color: #eee;
+}
+
+.tweet-feed header {
+  padding-top: 10px;
+  background-color: #eee;
+  opacity: 0.5;
+}
+
+.tweet-feed:hover header{
+  opacity: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+/*http://nicolasgallagher.com/micro-clearfix-hack/*/
+
+.tweet-feed h2 {
+  color: #941EEC;
+  display: inline-block;
+  float: left;
+}
+
+.tweet-feed main {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+}
+
+.tweet-feed .tweetr-handle {
+  float: right;
+}
+
+.tweet-feed img {
+  float: left;
+}
+
+.tweet-feed footer {
+  border-top: 2px solid #eee;
+  background-color: #fff;
+  height: 25px;
+}
+
+.tweet-feed .icons {
+  float: right;
+  padding-right: 10px;
+  display: none;
+}
+
+.tweet-feed:hover .icons {
+  display: inline;
+}
