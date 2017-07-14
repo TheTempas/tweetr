@@ -16,6 +16,25 @@
 
 #nav-bar .header {
   float: left;
-  margin: 10px;
+  margin: 15px;
   font-size: 200%;
+}
+
+#nav-bar button.compose {
+  float: right;
+  margin: 15px;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #eee;
+  opacity: 0.5;
+}
+
+#nav-bar button:hover {
+  opacity: 1;
+}
+
+#nav-bar span.button {
+  background-color: #fff;
 }

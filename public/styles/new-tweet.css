@@ -33,6 +33,7 @@ h2 {
   padding: 10px;
   background-color: #eee;
   border-radius: 5px;
+  display: none;
 }
 
 .new-tweet h2 {
@@ -54,7 +55,6 @@ h2 {
   color: red;
 }
 
-/*///////*/
 .tweet-feed {
   margin-top: 30px;
   border-radius: 5px;
@@ -70,7 +70,7 @@ h2 {
   opacity: 0.5;
 }
 
-.tweet-feed:hover header{
+.tweet-feed > .hovered > header {
   opacity: 1;
 }
 
@@ -83,7 +83,6 @@ h2 {
 .clearfix:after {
   clear: both;
 }
-/*http://nicolasgallagher.com/micro-clearfix-hack/*/
 
 .tweet-feed h2 {
   color: #941EEC;
@@ -116,7 +115,6 @@ h2 {
   padding-right: 10px;
   display: none;
 }
-
-.tweet-feed:hover .icons {
+.hovered .icons {
   display: inline;
 }
