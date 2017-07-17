@@ -4,6 +4,11 @@ const userHelper    = require("../lib/util/user-helper")
 
 const express       = require('express');
 const tweetsRoutes  = express.Router();
+const moment        = require('moment');
+
+function dateFromNow (created_at) {
+  return moment(created_at).fromNow();
+}
 
 module.exports = function(DataHelpers) {
 
@@ -12,7 +17,11 @@ module.exports = function(DataHelpers) {
       if (err) {
         res.status(500).json({ error: err.message });
       } else {
+        tweets.forEach((tweet) => {
+          tweet.fromNow = dateFromNow(tweet.created_at);
+        });
         res.json(tweets);
+        console.log(tweets)
       }
     });
   });
