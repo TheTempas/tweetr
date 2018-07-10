@@ -1,12 +1,10 @@
-# Tweeter Project
+# Tweeter
 
 Tweeter is a simple, single-page AJAX-based Twitter clone that uses jQuery, HTML5, and CSS3.
 
-## Screenshot
+!["Screenshot of Tweetr"](https://github.com/TheTempas/tweetr/blob/master/docs/Tweetr.png)
 
-!["Screenshot of Tweetr"](#)
-
-### Dependencies
+## Dependencies
 
 - Body-Parser
 - Chance
@@ -15,3 +13,8 @@ Tweeter is a simple, single-page AJAX-based Twitter clone that uses jQuery, HTML
 - Moment
 - MongoDB
 - Nodemon
+
+### Web Application Setup
+- Install dependencies (`npm install`)
+- Run the development web server (`npm run local`)
+- Go to http://localhost:8080/ in your browser
